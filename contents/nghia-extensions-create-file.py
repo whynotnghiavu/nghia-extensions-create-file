@@ -9,6 +9,13 @@ def create_folder(folder_path):
 
 folder_path = r"input-nghia-extensions-create-file"
 
+
+
+
+
+
+
+
 START = 1
 END = 100 
 
