@@ -4,11 +4,17 @@ def create_file(folder_path):
     for i in range(START, END):
         file_name = f"KhoaHoc{i}.txt"
         file_path = os.path.join(folder_path, file_name)
-        # os.makedirs(file_path, exist_ok=True)  
-        # os.makedirs(file_path, exist_ok=True)  
-        # os.makedirs(file_path, exist_ok=True)  
-        # os.makedirs(file_path, exist_ok=True)  
-        os.makedirs(file_path, exist_ok=True)  
+        
+        
+
+
+        
+
+        with open(file_path, 'w', encoding="utf-8") as file:
+            file.write(f"This is file {file_name}")
+            
+            
+            
 
 
 
